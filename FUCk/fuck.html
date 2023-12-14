@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello and Fuck You, Heheheheh</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .flying-text {
+      position: absolute;
+      font-size: 24px;
+      font-family: 'Arial', sans-serif;
+      color: #3498db;
+      animation: flyAnimation 5s infinite;
+    }
+
+    @keyframes flyAnimation {
+      0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(80vw, 50vh);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="flying-text">Hello, Fuck You, Hehehehe</div>
+
+  <script>
+    // Optional: You can use JavaScript to dynamically create the flying text element.
+    // For simplicity, I've included it directly in the HTML.
+
+    // Example using JavaScript to create the flying text element:
+    // const flyingText = document.createElement('div');
+    // flyingText.className = 'flying-text';
+    // flyingText.textContent = 'Hello, Flying Text!';
+    // document.body.appendChild(flyingText);
+  </script>
+</body>
+</html>
